@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Geppetto's Kitchen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gepetto.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div id="wrapper">
+    
+    <header>
+     
+    </header>
+   
+    <nav id="nav"> 
+      <hr id="green">
+     <ul>
+      <li><a href="home.html">Home</a> </li>
+      <li><a href="menu.html">Menu</a>
+        <ul>
+          <li><a style="font-size: 0.8em; " href="menu.html#brunch">Brunch</a></li>
+          <li><a style="font-size: 0.8em;" href="menu.html#pizza">Pizza</a></li>
+          <li><a style="font-size: 0.8em;" href="menu.html#pasta">Pasta</a></li>
+          <li><a style="font-size: 0.8em;" href="menu.html#dessert">Dessert</a></li>
+          <li><a style="font-size: 0.8em;" href="menu.html#beverages">Beverages</a></li>
+        </ul>
+       </li>
+       
+      <li><a href="photogallery.html">Photo Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+      <hr id="red">
+      </nav>
+       <main id="whiteblock">
+          <h1>Our Story...</h1>
+            <p id="text">
+            Welcome to Geppetto's Kitchen. We serve the best Italian food, bringing Italian home cooking to the lower mainland. Our door has been opened since 2015. Over the years our kitchen has developed to provide our customers with a refined and delicate cuisine that oozes flavour.
+            At Geppetto's kitchen we take pride in delivering warm and friendly service to your table. Using only finest and freshest of ingredients we provide our dinners with healty meals including accomendation for gluten free, vegetarian and vegan customers. All our ingredients are supplied by Britsh Columbia's very own farmers.
+
+             <img src="../1x/Restaurant-server.jpg" width="400"  alt="Restaurant-server" id="server">
+             </p>
+            
+            <p id="hours" >
+              Hours:<br>
+              Mon - Fri: 9:30 am to 11:30 pm<br>
+              Sat - Sun: 8:30 am to 10:00 pm</p>
+              <hr>
+            <img src="../1x/italian-flag-14.gif" alt="italian-flag" id="flag"><br>
+            <audio controls="controls">
+                <source src="../1x/italy.mp3" type="audio/mpeg">
+                  <source src="../1x/italy.ogg" type="audio/ogg">
+                    <a href="../1x/italy.mp3">Download the podcast</a> (MP3)
+            </audio><br>
+            <hr>
+           <h2>Reserve your table online</h2>
+           <p class="info"> Enter your name and your preferred email address to 
+            reserve your table at Geppetto's Kitchen restaurant. <br>
+            Required information is marked with an asterisk (*).</p>
+
+            <form style="text-align: center; padding-bottom: 50px;"  method="post">
+              <label  for="Name" class="info">*Name:</label>
+              <input type="text" name="myName"  required >
+        
+              <label   for="Email" class="info">*Email:</label>
+              <input type="email" name="myEmail"  required >
+        
+              <input type="submit" value="Submit" id="mySubmit" onclick=submitbutton()>
+            </form>
+
+        </main>
+        <footer>
+          &#169; 2019 <span style="font-weight: bold;">GEPPETTO'S KITCHEN</span> |
+          Website By: <span style="font-weight: bold;">Andrijana & Ghadeer</span>
+          <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+                </a>
+            </p>
+        </footer>    
+    </div>
+    
+</body>
+</html>

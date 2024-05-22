@@ -1,0 +1,475 @@
+@font-face {
+    font-family: "GardenGrownUS-B" ;
+    src: url("../Fonts/GardenGrownUS-B.otf");
+}
+
+@font-face {
+    font-family: "GeosansLight" ;
+    src: url("../Fonts/GeosansLight.ttf");
+}
+
+@font-face {
+    font-family: "GoboldsThin" ;
+    src: url("../Fonts/GoboldsThin.otf");
+}
+
+body {
+    background-color:#121111 ;
+}
+nav {
+   
+    padding-right: 2em;
+    text-align: center;
+    position: relative;
+    height: 30px;
+    
+   
+}
+
+nav ul ul {
+    position: absolute;
+    padding: 0;
+    text-align: left;
+    display: none; 
+    background-color: #121111;
+}
+nav ul ul li { 
+    border: 1px solid #121111;
+    display: block;
+    width: 2.5em;
+    padding-left: 1em;
+    font-size: 1.3em;
+    margin-left: 0; 
+    height: 10px;
+    
+}
+nav li:hover ul { 
+    display: block;
+}
+
+nav li { 
+    padding: 0.5em;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+nav a:link{
+    color: white;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    color: #FEF6C2;
+}
+
+a {
+    font-family: "GeosansLight";
+    letter-spacing: 7px;
+    text-decoration: none;
+    font-size: 1.6em;
+    
+}
+
+
+header {
+    
+    background-image: url(../1x/Ass3.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#wrapper {
+    background-color:#121111;
+}
+
+.names {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    text-align: center;
+    font-size: 5em;
+    color: #121111;
+    font-family: "GardenGrownUS-B";
+
+}
+
+.menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.menuB {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+
+hr {
+    width: 600px;
+}
+
+#green {
+    
+     border-top: 0.5px solid green;
+}
+
+#red {
+    
+    border-top: 0.3px solid red;
+
+}
+
+#black {
+    border: 0.7px solid #121111;
+}
+
+#hours {
+    color:#cc0000; letter-spacing: 3px;
+     font-family: 'GeosansLight' ; 
+     line-height: 35px; 
+     font-size: 20px; 
+     text-align: center;
+     padding-top: 15px; 
+     padding-bottom: 50px;
+     font-weight: bold;
+}
+
+#whiteblock {
+    
+    position: relative;
+    background-color: white;
+    margin: 17% 10% 3% 10%;
+}
+
+#whiteblock table {
+    margin: 2% 6% 6% 10%;
+}
+
+#whiteblock img {
+    border: none;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    
+  
+}
+
+#whiteblock a:hover span { 
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    text-align: center;
+
+}
+
+#text {
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-top: -80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #121111;
+    text-align: center;
+    font-family: "GeosansLight";
+    text-indent: 60px;
+}
+
+#server {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 7%;
+}
+h2 {
+    color: #121111;
+    font-family: "GardenGrownUS-B";
+    font-size: 2.5em;
+    text-align: center;
+}
+.info {
+    font-family:"GeosansLight" ;
+    font-weight: bolder ;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#reser {
+    text-align: center;
+    padding-bottom: 20%;
+    font-size: larger;
+}
+h5 {
+    color: antiquewhite;
+    font-weight: 100;
+    padding-left: 20px;
+    text-align: center;
+    float: left;
+}
+h1 {
+    font-family: "GardenGrownUS-B";
+    text-align: center;
+    font-size: 5em;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.contact {
+    font-family: "GardenGrownUS-B";
+    text-align: center;
+    font-size: 3.5em;
+    color: #121111;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#nummail {
+text-align: center;
+font-family:"GeosansLight" ;
+font-size: 1.2em;
+}
+
+audio {
+    float: right;
+    padding-right: 35%;
+    margin-bottom: 2.5%;
+    margin-top: -1%;
+    width: 200px;
+}
+
+#flag {
+    padding-left: 43%;
+    width: 200px;
+    height: auto;
+    margin-top: 2.5%;
+}
+
+.delivery {
+    text-align: center;
+    font-family: "GeosansLight";
+    font-style: italic;
+    font-size: 1.4em;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.del {
+    text-decoration: underline;
+    font-style: normal;
+    font-family:  "GoboldsThin";
+    font-size: 0.8em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(37, 100, 24);
+}
+
+.address {
+    text-align: center;
+    margin-top: -3.5%;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    color: #121111;
+    font-family: "GoboldsThin";
+    font-weight: bolder;
+}
+
+.mapouter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    margin-top: -50px;
+    border: 0px;
+}
+iframe {
+    border: 0px;
+}
+
+#submit {
+    background-color: white;
+    font-family:"GoboldsThin" ;
+    font-size: 30px;
+    border: 0.3px solid #121111;
+}
+
+footer {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "GeosansLight";
+    font-size: 18px;
+}
+.photos {
+    text-align: center;
+}
+@media only screen and (max-width: 1484px) {
+
+  .photos {
+      text-align: center;
+      margin: auto;
+      height: auto;
+      width: 90%;
+    }
+  #whiteblock {
+    margin: 240px 10% 55px 10%;
+    }
+   
+    #green {
+    
+        border-top: 0.8px solid green;
+    }
+
+   
+   #red {
+       
+       border-bottom: 0.8px solid red;
+    } 
+    #flag {
+
+        width: 150px;
+        height: auto;
+    }
+    audio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+
+
+}
+@media only screen and (max-width: 768px) {
+    header { 
+        background-image: url(../1x/Ass3.png);
+        background-size: 200px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+
+    nav { 
+        
+        margin: 0%;
+    }
+    nav a { 
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        padding-left: 0.5em;
+        border-color: #FEF6C2;
+        
+    }
+    
+    nav ul ul {
+        position: absolute;
+        text-align: center;
+        display: none;
+        font-size: 0.5em;
+    }
+
+    nav li { 
+
+        display: block;
+    }
+    #green {
+    
+        border-top: .5px solid green;
+        width: 50%;
+    }
+
+   
+   #red {
+       
+       border-top: 0.3px solid red;
+       width: 50%;
+    } 
+    #black {
+        width: 70%;
+    }
+    a {
+        font-size: 1em;
+    }
+
+     .photos {
+       text-align: center; 
+       height: auto;
+       width: 90%;
+       margin: auto;
+    }
+    #whiteblock {
+        margin: 240px 55px 55px 10%;
+    
+    }
+
+    .names {
+        font-size: 2em;
+    }
+
+    .mapouter {
+    
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        text-align: center;
+    }
+    #server {
+        text-align: center; 
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    hr {
+        width: 60%;
+    }
+
+    audio {
+        display: block;
+        align-items: center;
+        width: 200px;
+    }
+    
+    #flag {
+        display: block;
+        width: 90px;
+        height: auto;
+    }
+    #text {
+        display: block;
+        font-size: 18px;
+    }
+    footer {
+      
+        font-size: 10px;
+    }
+    
+  
+
+}
